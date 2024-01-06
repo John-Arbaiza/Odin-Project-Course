@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /*Parte del navbar*/
+.menu{
+    background-color: rgb(89, 149, 218);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.opciones{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    padding: 10px;
+}
+
+.op{
+    background-color: rgb(89, 149, 218);
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Parte del header*/
+.header{
+    background-color: rgb(214, 233, 254);
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plus{
+    color: rgb(89, 149, 218);
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plus> i:hover{
+    cursor: pointer;
+    color: rgb(238, 116, 95); 
+}
+
+.plus> h2{
+    color:rgb(108, 113, 119) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Parte central de la pagina*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.second-container{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.items{
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+}
+
+.items>h3{
+    font-size: 30px;
+     text-align: center;
+     margin-top: 100px;
+}
+
+/*Parte del footer*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 93px;
+}
+
+.final{
+    border: 1px solid #fff;
+    background-color: #5995DA;
+    flex: 1;
+}
+
+.final2{
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    flex: 2;
+}
